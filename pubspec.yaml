@@ -1,0 +1,25 @@
+name: belajarmobile2
+description: "Project Product Listener dengan Clean Architecture & MobX"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_mobx: ^2.2.1+1
+  mobx: ^2.3.3+2
+  http: ^1.2.0
+  image_picker: ^1.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.8
+  mobx_codegen: ^2.6.1
+
+flutter:
+  uses-material-design: true
